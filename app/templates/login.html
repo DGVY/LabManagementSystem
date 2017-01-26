@@ -8,8 +8,8 @@
     <form  style="margin:20px;border:1px solid red" method="post" action="/login">
         <span>学号:</span><input type="text" name="id" id="id"><br/>
         <span>密码:</span><input type="password" name="password" id="password"><br/>
-        <button type="submit" id="loginBtn">login</button>
-    </form>
+        <button type="submit" id="loginBtn">登录</button>
+    <a href="/signup"><input type="button" value="注册"></input></a>
     {% if error %}
         <h1 style="color:red">{{ error }}!</h1>
     {% endif %}
