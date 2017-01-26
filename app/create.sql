@@ -7,4 +7,7 @@ drop table if exists users;
         password varchar(20) not null                       /*密码*/
     );
 
+INSERT INTO users values ('2014111526', 'LIKE', '123456');
+INSERT INTO users values ('2014111530', 'DGVY', '654321');
+
 /*物品表*/
